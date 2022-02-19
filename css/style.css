@@ -273,9 +273,14 @@ p {
     font-size: 26px;
     text-align: right;
     color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: 2px solid #aea8d3;
 }
+
 .back-to-navigation a:hover {
-    color: rgb(212, 149, 14);
+    height: 120% !important;
+    opacity: 1;
+    color: rgb(212, 124, 9);
 }
 
 .back-to-navigation_ico {
