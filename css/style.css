@@ -47,8 +47,9 @@ body {
 /* ======== Навигация ========*/
 
 .navigation {
-    margin: 0 0 20px 0;
-    padding-left: 30px;
+    margin: 0 auto 20px auto;
+    width: 1000px;
+    max-width: 100%;
 }
 
 .text_bold {
@@ -74,7 +75,7 @@ li > a {
 }
 
 .list .list {
-    margin: 0 0 0 50px;
+    padding: 0 0 0 50px;
     color: antiquewhite;
 }
 
@@ -106,7 +107,7 @@ a:hover {
     max-width: 100%;
     border: 3px solid #4a568a;
     border-radius: 15px;
-    margin: 25px auto;
+    margin: 0px auto 25px auto;
     padding: 20px 20px;
     box-shadow: 5px 5px 30px 2px;
     background-color: white;
@@ -158,53 +159,6 @@ p {
 
 /* ======== Блоки с информацией ========*/
 
-.image__1 {
-    /* background: url(../img/struktura.jpg) no-repeat center center; */
-    max-width: 595px;
-    height: 257px;
-    display: block;
-    margin: 10px auto;
-    /* max-width: 100%; */
-    box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff, 20px 0px 0px -10px #ffffff,
-        -20px 0px 0px -10px #ffffff, 0px 0px 0px 10px cornflowerblue, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-}
-
-/* ======== Footer блок ========*/
-
-.back-to-navigation {
-    font-size: 26px;
-    text-align: right;
-    padding: 20px 0;
-}
-
-.back-to-navigation a {
-    font-size: 26px;
-    text-align: right;
-    padding: 20px 0;
-    color: rgb(255, 255, 255);
-}
-.back-to-navigation a:hover {
-    color: rgb(212, 149, 14);
-}
-
-.back-to-navigation_ico {
-    position: fixed;
-    bottom: 0;
-    right: 0px;
-    opacity: 0.7;
-}
-
-.footer {
-    font-size: 16px;
-    text-align: left;
-    font-weight: 700;
-    color: aliceblue;
-    max-width: 1100px;
-    margin: 0 auto;
-    height: 100%;
-    padding-bottom: 20px;
-}
-
 /* Спойлер 1 */
 .section-1 .remove {
     display: none;
@@ -217,7 +171,7 @@ p {
     transition-duration: 1s;
 }
 .section-1__link:hover {
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .text__spoller {
@@ -293,4 +247,51 @@ p {
 
 #spoller-3:target ~ .section-3 .remove {
     display: block;
+}
+
+/* 3 Блок с изображением */
+
+.image__1 {
+    /* background: url(../img/struktura.jpg) no-repeat center center; */
+    max-width: 595px;
+    height: 257px;
+    display: block;
+    margin: 10px auto;
+    /* max-width: 100%; */
+    box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff, 20px 0px 0px -10px #ffffff,
+        -20px 0px 0px -10px #ffffff, 0px 0px 0px 10px cornflowerblue, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+/* ======== Footer блок ========*/
+
+.back-to-navigation {
+    font-size: 26px;
+    text-align: right;
+}
+
+.back-to-navigation a {
+    font-size: 26px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.back-to-navigation a:hover {
+    color: rgb(212, 149, 14);
+}
+
+.back-to-navigation_ico {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    opacity: 0.7;
+}
+
+.footer {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    color: aliceblue;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 20px;
 }
